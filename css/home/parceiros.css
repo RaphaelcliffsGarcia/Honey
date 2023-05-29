@@ -5,6 +5,7 @@
 
 .parceiros h2 {
   margin-bottom: 60px;
+  color: #9c9c9c;
 }
 .parceiros ul {
   padding: 0 20px;
@@ -16,7 +17,7 @@
 .parceiros li {
   display: flex;
   padding: 32px;
-  border-left: 2px solid black;
+  border-left: 2px solid #e6e6e6;
 }
 .parceiros img {
   margin: auto;
@@ -27,7 +28,7 @@
 }
 
 .parceiros li:nth-child(n + 5) {
-  border-top: 2px solid black;
+  border-top: 2px solid #e6e6e6;
 }
 
 @media (max-width: 800px) {
@@ -44,7 +45,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .parceiros li:nth-child(n + 3) {
-    border-top: 2px solid black;
+    border-top: 2px solid #e6e6e6;
   }
   .parceiros li:nth-child(odd) {
     border-left: none;
