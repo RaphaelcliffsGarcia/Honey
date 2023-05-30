@@ -19,6 +19,7 @@
   color: #0f0f0f;
 }
 .depoimento-conteudo p {
+  max-width: 42ch;
   font-family: "Caveat", serif;
   font-weight: 900;
   margin-bottom: 32px;

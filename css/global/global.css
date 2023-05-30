@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding-bottom: 600px;
 }
 
 h1,
@@ -10,7 +9,8 @@ h3,
 h4,
 ul,
 blockquote,
-p {
+p,
+dd {
   margin: 0px;
 }
 

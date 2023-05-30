@@ -5,9 +5,7 @@
 
 .embalgem-lista h2 {
   margin-bottom: 40px;
-  color: #252219;
-  /* cores opcionais lembrete depois apagar  */
-  /* consists #f9b83c,#fff5e3,#ffe7c8,#f0c88c,#c1905e */
+  color: #3d2f27;
 }
 
 .embalgem-lista h2 span {
@@ -39,7 +37,7 @@
   margin-bottom: 8px;
   display: flex;
   align-items: center;
-  color: #252219;
+  color: #3d2f27;
 }
 
 .embalgem-lista h3::before {

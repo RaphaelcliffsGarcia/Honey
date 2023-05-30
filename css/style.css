@@ -12,7 +12,12 @@
 @import "./home/parceiros.css";
 @import "./home/depoimentos.css";
 
-/*Embalagens*/
+/*embalagens*/
 @import "./embalagens/embalagens-lista.css";
-/*seguros*/
-@import "./seguros/seguros.css";
+@import "./embalagens/produtos.css";
+/*assinaturas*/
+@import "./assinaturas/assinaturas.css";
+@import "./assinaturas/perguntas.css";
+@import "./assinaturas/vantagens.css";
+/*termos*/
+@import "./termos/termos.css";
