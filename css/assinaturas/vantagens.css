@@ -24,6 +24,9 @@ h3 {
 img {
   margin-bottom: 8px;
 }
+.vantagens img {
+  width: 24px;
+}
 @media (max-width: 800) {
   .vantagens {
     padding-top: 60px;

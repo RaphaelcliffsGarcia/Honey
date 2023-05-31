@@ -9,6 +9,9 @@ h2 {
 .Mini-bg .embalagens-conteudo h2 {
   color: #fff;
 }
+.Mini-bg .embalagens-conteudo h2 span {
+  color: #efb049;
+}
 .listas-mini {
   color: #fff;
 }
