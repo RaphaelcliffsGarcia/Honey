@@ -5,7 +5,9 @@
 
 /*Utilidades*/
 @import "./utilidades/componentes.css";
-
+/* historia */
+@import "./historia/mel.css";
+@import "./historia/transporte.css";
 /*Home*/
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
