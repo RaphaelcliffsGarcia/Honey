@@ -1,6 +1,7 @@
 .termos h2 {
   font-weight: 600;
   margin-bottom: 20px;
+  color: #1a1410;
 }
 .termos {
   padding-top: 80px;
@@ -9,6 +10,7 @@
 .termos p {
   max-width: 75ch;
   margin-bottom: 24px;
+  color: #1a1410;
 }
 .termos p + h2 {
   margin-top: 40px;
