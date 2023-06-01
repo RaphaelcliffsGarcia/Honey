@@ -59,14 +59,15 @@ h1 {
 @media (max-width: 800px) {
   .transporte-bg {
     padding-top: 40px;
-    box-shadow: inset 0 -60px #0f0f0f;
   }
   .transporte {
     grid-template-columns: 1fr;
     gap: 32px;
   }
   .transporte-conteudo {
-    padding-bottom: 0px;
+    grid-row: 1;
+    padding-top: 120px;
+    padding-bottom: 40pxpx;
   }
   .transporte h1 {
     margin-bottom: 16px;
@@ -87,5 +88,13 @@ h1 {
   }
   .transporte-vantagens p {
     color: #b8b8b8;
+  }
+  .transporte-imagem {
+    display: none;
+  }
+  .processo-listado ul {
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }

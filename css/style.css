@@ -5,6 +5,7 @@
 
 /*Utilidades*/
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
 /* historia */
 @import "./historia/mel.css";
 @import "./historia/transporte.css";
@@ -21,5 +22,10 @@
 @import "./assinaturas/assinaturas.css";
 @import "./assinaturas/perguntas.css";
 @import "./assinaturas/vantagens.css";
+/*contato*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 /*termos*/
 @import "./termos/termos.css";
+/*orcamento*/
+@import "./orcamento/orcamento.css";

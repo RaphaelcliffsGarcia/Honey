@@ -16,6 +16,9 @@
 .footer-contato ul {
   margin-bottom: 32px;
 }
+.footer li a {
+  color: #9c9c9c;
+}
 .footer li {
   margin-bottom: 16px;
   color: #9c9c9c;
