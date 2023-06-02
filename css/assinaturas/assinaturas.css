@@ -9,6 +9,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
+  background: url("../../img/dec/top-right.svg") no-repeat top 80px right 20px;
 }
 .assinaturas p {
   color: #fff;
