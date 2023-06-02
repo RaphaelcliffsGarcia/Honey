@@ -80,7 +80,7 @@
 
 .orcamento-produto input:checked + label::before {
   border-color: #717171;
-  box-shadow: inset 0 0 0 3px #ffffff, inset 0 0 0 6px #e89931;
+  box-shadow: inset 0 0 0 3px #ffffff, inset 0 0 0 6px #9c9c9c;
 }
 
 .orcamento-produto label:hover {
