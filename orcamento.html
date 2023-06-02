@@ -37,13 +37,114 @@
         <h1 class="font-1-xxl">Escolha o seu <span>Plano.</span></h1>
       </div>
     </div>
-    <form class="orcamento container" action="./"></form>
-    <div class="orcamento-produto">
-      <h2 class="font-1-xs">Escolha seu plano</h2>
+    <form class="orcamento container" action="./orcamento.html">
+      <div class="orcamento-produto">
+        <h2 class="font-1-xs ">Bikcraft ou Seguro?</h2>
 
-      <input type="radio" name="tipo" value="mel" id="mel">
-      <label for="mel">O Seu Mel</label>
-    </div>
+        <input type="radio" name="tipo" value="mel" id="mel">
+        <label for="mel">Escolha o mel</label>
+
+        <input type="radio" name="tipo" value="planos" id="planos">
+        <label for="planos">Planos</label>
+
+        <div class="orcamento-conteudo" id="orcamento-mel">
+          <h2 class="font-1-xs ">Escolha a sua</h2>
+
+          <input type="radio" name="produto" value="firehoney" id="firehoney">
+          <label for="firehoney">FireHoney</label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs ">
+              <li><img src="./img/icones/trofeu.svg" alt=""> Premiado </li>
+              <li><img src="./img/icones/sustentavel.svg" alt=""> 100% orgânico </li>
+              <li><img src="./img/icones/pimenta.svg" alt="">Pimenta Caseira</li>
+              <li><img src="./img/icones/colmeia.svg" alt=""> Aroma e sabor excepcionais </li>
+            </ul>
+            <img src="./img/Honeys/Honeys.jpg" alt="Bicicleta preta">
+          </div>
+
+          <input type="radio" name="produto" value="ambergold" id="ambergold">
+          <label for="ambergold">AmberGold</label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs ">
+              <li><img src="./img/icones/ambar.svg" alt=""> Mel Ambar</li>
+              <li><img src="./img/icones/sustentavel.svg" alt=""> 100% orgânico </li>
+              <li><img src="./img/icones/cha.svg" alt="">Perfeito para chás</li>
+              <li><img src="./img/icones/colmeia.svg" alt=""> Rico em sais minerais</li>
+            </ul>
+            <img src="./img/Honeys/Honeys 3.jpg" alt="Mel AmberGold">
+          </div>
+
+          <input type="radio" name="produto" value="purenectar" id="purenectar">
+          <label for="purenectar">PureNectar</label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs ">
+              <li><img src="./img/icones/entrega2.svg" alt="">Pronta entrega </li>
+              <li><img src="./img/icones/sustentavel.svg" alt=""> 100% orgânico </li>
+              <li><img src="./img/icones/Produtosquimicos.svg" alt="">Tecnologia sustentável </li>
+              <li><img src="./img/icones/colmeia.svg" alt=""> Rico em ferro </li>
+            </ul>
+            </ul>
+            <img src="./img/Honeys/Honeys 2.jpg" alt="Bicicleta branca">
+          </div>
+
+        </div>
+
+        <div class="orcamento-conteudo" id="orcamento-planos">
+          <h2 class="font-1-xs ">Escolha o planos</h2>
+
+          <input type="radio" name="produto" value="prata" id="prata">
+          <label for="prata">Mel Dourado <span>R$ 90,00</span></label>
+
+          <input type="radio" name="produto" value="ouro" id="ouro">
+          <label for="ouro">Mel Majestoso <span>R$ 150,00 </span></label>
+        </div>
+      </div>
+      <div class="orcamento-dados form">
+        <h2 class="font-1-xs col-2">dados pessoais</h2>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome">
+        </div>
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" id="sobrenome" name="sobrenome">
+        </div>
+        <div class="col-2">
+          <label for="cpf">CPF</label>
+          <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+        </div>
+        <div class="col-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <h2 class="font-1-xs col-2">entrega</h2>
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" name="cep">
+        </div>
+        <div>
+          <label for="numero">Número</label>
+          <input type="text" id="numero" name="numero">
+        </div>
+        <div>
+          <label for="logradouro">Logradouro</label>
+          <input type="text" id="logradouro" name="logradouro">
+        </div>
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" id="bairro" name="bairro">
+        </div>
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" name="cidade">
+        </div>
+        <div>
+          <label for="estado">Estado</label>
+          <input type="text" id="estado" name="estado">
+        </div>
+        <button class="botao col-2">Finalizar assinatura</button>
+      </div>
+    </form>
   </main>
 
 
