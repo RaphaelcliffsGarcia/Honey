@@ -13,6 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karma&family=Neuton:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <div></div>
 
@@ -39,8 +43,8 @@
       </div>
     </div>
 
-    <div class="assinaturas container">
-      <div class="assinaturas-item">
+    <div class="assinaturas container fadeInLeft" data-anime="200">
+      <div class=" assinaturas-item">
         <h3 class="font-1-xl">Mel Dourado</h3>
         <span class="font-1-xl">R$ 90,00 <span class=span-mensal>mensal</span></span>
         <ul class="font-2-m">
@@ -51,8 +55,8 @@
         </ul>
         <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
       </div>
-      <div class="assinaturas-item">
-        <h3 class="font-1-xl">Mel Majestoso</h3>
+      <div class="assinaturas-item fadeInRight" data-anime="400">
+        <h3 class=" font-1-xl">Mel Majestoso</h3>
         <span class="font-1-xl">R$ 150,00 <span class="span-mensal">mensal</span></span>
         <ul class="font-2-m">
           <li>Dois potes de 600ml mensalmente </li>
@@ -174,6 +178,7 @@
       <p class="footer-copy font-2-m">Honey Farm © Todos os direitos reservados </p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

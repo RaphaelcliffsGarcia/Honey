@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karma&family=Neuton:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -33,11 +34,11 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl"> O Néctar da <br>Honey Farm <span>.</span> </h1>
-        <p class="font-2-l">O mel orgânico da Honey Farm é o resultado do cuidado e respeito pela natureza em todas as etapas de produção. Na fazenda, as abelhas são criadas em colmeias saudáveis e em harmonia com o meio ambiente. Elas são livres para colher o néctar de flores selvagens, campos floridos e árvores frutíferas, resultando em um mel de sabor único e autêntico.</p>
-        <a class="botao" href="./produtos.html">Leia mais</a>
+        <h1 class="font-1-xxl fadeInDown" data-anime="200"> O Néctar da <br>Honey Farm <span>.</span> </h1>
+        <p class="font-2-l fadeInDown" data-anime="400">O mel orgânico da Honey Farm é o resultado do cuidado e respeito pela natureza em todas as etapas de produção. Na fazenda, as abelhas são criadas em colmeias saudáveis e em harmonia com o meio ambiente. Elas são livres para colher o néctar de flores selvagens, campos floridos e árvores frutíferas, resultando em um mel de sabor único e autêntico.</p>
+        <a class="botao fadeInDown" data-anime="600" href="./produtos.html">Leia mais</a>
       </div>
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <source media="(max-width:800px)" srcset="./img/FOTOS/introducao.JPEG">
         <img src="./img/FOTOS/introducao.JPEG" width="1280" height="1600" alt="Mel organico Honey farm">
       </picture>
@@ -184,7 +185,9 @@
       <p class="footer-copy font-2-m">Honey Farm © Todos os direitos reservados </p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
+
 </body>
 
 </html>
