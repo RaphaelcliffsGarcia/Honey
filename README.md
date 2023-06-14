@@ -4,9 +4,11 @@
 
 <br> <!-- Adiciona uma linha vazia após a imagem -->
 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RaphaelcliffsGarcia/Honey-Farm/blob/main/LICENSE)
+
 ## 🐝 Sobre o projeto 🐝
 
-<p>A Honey Farm é um projeto encantador que tive a oportunidade de desenvolver como parte do meu curso de front-end na Origamid. Foi uma experiência estimulante e repleta de aprendizados, onde pude aplicar meu conhecimento em design, programação e usabilidade para criar um website único, responsivo e envolvente.</p>
+<p>A Honey Farm foi um projeto encantador que tive a oportunidade de desenvolver como parte do meu curso de front-end na Origamid. Foi uma experiência estimulante e repleta de aprendizados, onde pude aplicar meu conhecimento em design, programação e usabilidade para criar um website único, responsivo e envolvente.</p>
 <p>Minha ideia inicial foi criar um site sobre um mel orgânico de qualidade excepcional, produzido de forma sustentável e com respeito ao meio ambiente. Utilizei o Figma, para criar o design de interfaces intuitivo e versátil e o adobe photoshop para editar algumas fotos, criar a logo e os mockups das embalagens do mel.</p>
  <br> <!-- Adiciona uma linha vazia após a imagem -->
  
