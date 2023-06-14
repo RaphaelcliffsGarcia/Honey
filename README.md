@@ -45,12 +45,6 @@
 
 <br> <!-- Adiciona uma linha vazia após a imagem -->
 
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](./LICENSE).
-
-<br> <!-- Adiciona uma linha vazia após a imagem -->
-
 <h1> 
   Autor
 </h1>
