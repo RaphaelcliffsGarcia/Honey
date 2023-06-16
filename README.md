@@ -52,3 +52,35 @@
 ## 🐝 Raphael Santos Batista Garcia 🐝
 
 [https://www.linkedin.com/in/raphael-garcia-70395424b](https://www.linkedin.com/in/raphael-garcia-70395424b)
+
+# Como Executar
+
+Para executar o projeto localmente, siga as etapas abaixo:
+ <br> <!-- Adiciona uma linha vazia após a imagem -->
+ <br> <!-- Adiciona uma linha vazia após a imagem -->
+ 
+
+## Clone o repositório
+```bash
+git clone https://github.com/RaphaelcliffsGarcia/Honey-Farm.git
+```
+<p> obs: Se preferir, você também pode fazer o download do projeto como um arquivo ZIP. </p>
+
+## Acesse a pasta do projeto
+cd Honey-Farm
+## Executando o Projeto
+
+Para abrir o arquivo `index.html` no seu navegador web, siga as etapas abaixo:
+
+1. Navegue até a pasta do projeto, onde você clonou o repositório.
+
+2. Localize o arquivo `index.html`.
+
+3. Clique com o botão direito no arquivo e selecione "Abrir com" e escolha o seu navegador preferido.
+
+4. O arquivo `index.html` será aberto no navegador e você poderá visualizar o projeto.
+
+
+
+
+
